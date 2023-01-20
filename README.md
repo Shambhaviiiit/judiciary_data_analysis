@@ -1,13 +1,10 @@
 # Judiciary_data_analysis
 Data insights of a data set of all district courts of India
 # README
-
-    Shambhavi Jahagirdar
-    Dual Degree Student (CSD)
-
 - All codes written for analyzing the given dataset are present in the notebook Data_analysis.ipynb uploaded to the git repository.
-
 - Codes for the classification problem are in notebook Classification.ipynb
+- Language used: Python
+- Libraries used: Dask, matplotlib, NumPy, sklearn
 
 ## Court Data Analysis and Report
 ### Dispute Types Analysis 
