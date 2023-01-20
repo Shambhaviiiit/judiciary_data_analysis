@@ -1,8 +1,7 @@
 # Judiciary_data_analysis
 Data insights of a data set of all district courts of India
 # README
-- All codes written for analyzing the given dataset are present in the notebook Data_analysis.ipynb uploaded to the git repository.
-- Codes for the classification problem are in notebook Classification.ipynb
+- All codes written for analyzing the given dataset and classification problem are present in the notebooks uploaded to the git repository.
 - Language used: Python
 - Libraries used: Dask, matplotlib, NumPy, sklearn
 
@@ -49,3 +48,11 @@ Determined the percentage of female petitioners filing cases. The data has many 
 The percentages as plotted were observed to be in the range of 15% to 16% over the 6 years. 
 
 A nearly steady graph, indicating that not much improvement has been seen in the women filing cases for their rights.
+
+## Classification Problem
+
+The following models can be trained and evaluated:
+- Learning to predict dispute name with purpose as the input.
+- Learning to predict dispute name with type of case as the input.
+
+Algorithm tried : Naive Bayes, for binary classification of the data.
